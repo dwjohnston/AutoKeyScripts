@@ -8,6 +8,7 @@ or WinActive("ahk_class ExploreWClass")
   Send {Shift Down}{AppsKey}{Shift Up}
   Sleep 10
   Send w{enter}
+  WinActivate, "ahk_class ConsoleWindowClass"
 }
 else
 {
